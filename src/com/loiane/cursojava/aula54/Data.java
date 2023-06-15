@@ -6,12 +6,10 @@ public class Data {
 	private int mes;
 	private int ano;
 	private DiaSemana diaSemana;
-	
-	
 
 	public Data() {
 		super();
-	
+
 	}
 
 	public Data(int dia, int mes, int ano, DiaSemana diaSemana) {
