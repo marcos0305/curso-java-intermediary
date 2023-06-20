@@ -33,8 +33,8 @@ public class TesteWrapper {
 		System.out.println(num17);
 
 		Integer num18 = Integer.valueOf(1254);
-		System.out.println(num18);
+		System.out.println(num18);  
 		
-		System.out.println(num9 == num13);
+		System.out.println(num9 = num13);
 	}
 }
