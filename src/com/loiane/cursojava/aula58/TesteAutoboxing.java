@@ -24,7 +24,7 @@ public class TesteAutoboxing {
 		num3++;
 		System.out.println(num3);
 
-		// auto unboxing num3 -> autoboxing num2/num9 -> num14
+		// auto unboxing num3 -> autoboxing num2/num3 -> num8
 		Integer num8 = num2 / num3;
 
 	}
