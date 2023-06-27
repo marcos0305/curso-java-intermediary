@@ -12,7 +12,7 @@ public class Teste {
 		System.out.println(escopo.getValor());
 		System.out.println(escopo.teste());
 		System.out.println(escopo.getValor());
-		
+			
 		
 	}
 }
