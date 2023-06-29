@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula61;
+package com.loiane.cursojava.aula62;
 
 public class Varargs {
 
