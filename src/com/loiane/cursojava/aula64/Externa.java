@@ -5,6 +5,7 @@ public class Externa {
 	private String texto = "texto externo";
 
 	public class Interna {
+		
 		private String texto = "texto interno";
 
 		public void imprimirTexto() {
