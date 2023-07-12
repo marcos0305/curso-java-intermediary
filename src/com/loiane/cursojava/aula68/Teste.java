@@ -6,6 +6,6 @@ public class Teste {
 		MinhaThreadRunnale thread1 = new MinhaThreadRunnale("#01", 900);
 		//Thread t1 = new Thread(thread1);
 		//t1.start();
-		MinhaThreadRunnale thread2 = new MinhaThreadRunnale("#02", 10000);
+		MinhaThreadRunnale thread2 = new MinhaThreadRunnale("#02", 10000); 
 	}
 }
