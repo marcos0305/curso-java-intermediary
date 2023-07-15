@@ -15,10 +15,10 @@ public class MinhaThread implements Runnable {
 	@Override
 	public void run() {
 
-		System.out.println("Executado" + nome);
+		System.out.println("Executado " + nome);
 		try {
 			for (int i = 0; i < 10; i++) {
-				System.out.println("Thread " + nome + ", " + i);
+				System.out.println("Thread " + nome + i);
 				Thread.sleep(300);
 				synchronized (this) {
 					while (estaSuspensa) {
@@ -33,7 +33,7 @@ public class MinhaThread implements Runnable {
 		}
 		System.out.println("Thread " + nome + "terminada");
 	}
-
+ 
 	void suspend() {
 		this.estaSuspensa = true;
 	}
