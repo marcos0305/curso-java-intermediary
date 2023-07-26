@@ -10,3 +10,4 @@ public class Teste {
 		System.out.println(teste.toUpperCase());
 	}
 }
+ 
