@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula82;
+package com.loiane.cursojava.aula83;
 
 public class Teste {
 
